@@ -1,1 +1,7 @@
-/* Layout */
+.container{
+
+    width:min(90%,1200px);
+
+    margin:auto;
+
+}
