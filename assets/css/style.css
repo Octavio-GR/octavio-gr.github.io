@@ -3,3 +3,28 @@
    Version: 0.1
    Author: Octavio Guerrero
 ====================================================== */
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== ROOT ===== */
+
+:root {
+    --background: #0D1117;
+    --surface: #161B22;
+
+    --text-primary: #F0F6FC;
+    --text-secondary: #C9D1D9;
+
+    --accent-red: #E53935;
+    --accent-green: #2EA043;
+    --accent-yellow: #D29922;
+    --accent-blue: #58A6FF;
+
+    --max-width: 1200px;
+    --radius: 12px;
+}
