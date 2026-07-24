@@ -1,0 +1,25 @@
+:root{
+
+    /* Backgrounds */
+
+    --background:#0E1116;
+    --surface:#161B22;
+
+    /* Text */
+
+    --text-primary:#F5F7FA;
+    --text-secondary:#B7C0CC;
+
+    /* Brand */
+
+    --accent-red:#D72638;
+    --accent-green:#2ECC71;
+    --accent-yellow:#F4D03F;
+
+    /* Layout */
+
+    --radius:16px;
+
+    --shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
