@@ -83,6 +83,8 @@ RULE #017
 
 Toroide debe poder entenderse incluso sin su creador.
 
+RULE #018
+
 La documentación es parte del producto.
 
 RULE #018
