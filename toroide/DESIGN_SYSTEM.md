@@ -29,3 +29,21 @@ Curiosity is intentional.
 5.
 
 Silence amplifies meaning.
+
+# Visual Hierarchy
+
+Priority 1
+
+Attention
+
+Priority 2
+
+Understanding
+
+Priority 3
+
+Interaction
+
+Priority 4
+
+Decoration
