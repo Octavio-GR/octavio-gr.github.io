@@ -84,3 +84,7 @@ RULE #017
 Toroide debe poder entenderse incluso sin su creador.
 
 La documentación es parte del producto.
+
+RULE #018
+
+Cada archivo debe explicar por qué existe.
