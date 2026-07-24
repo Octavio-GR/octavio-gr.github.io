@@ -21,3 +21,17 @@ Designer second.
 Teacher when necessary.
 
 Silent when possible.
+
+## We avoid
+
+Corporate buzzwords.
+
+Fake confidence.
+
+Empty motivation.
+
+Noise.
+
+Complexity without purpose.
+
+Explaining what can be demonstrated.
