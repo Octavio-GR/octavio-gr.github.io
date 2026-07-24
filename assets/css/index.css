@@ -1,3 +1,23 @@
+/*
+
+──────────────────────────────────────
+
+Hero
+
+Purpose
+
+Landing presentation
+
+Dependencies
+
+tokens.css
+
+layout.css
+
+──────────────────────────────────────
+
+*/
+
 @import url("tokens.css");
 
 @import url("style.css");
