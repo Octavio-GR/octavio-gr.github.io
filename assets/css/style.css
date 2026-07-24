@@ -1,56 +1,35 @@
 /* ======================================================
    Proyecto Toroide
    Version: 0.1
-   Author: Octavio Guerrero
+   File: style.css
+   Purpose: Global Styles
+   Dependencies:
+   - tokens.css
 ====================================================== */
-/*
-
-──────────────────────────────────────
-
-Hero
-
-Purpose
-
-Landing presentation
-
-Dependencies
-
-tokens.css
-
-layout.css
-
-──────────────────────────────────────
-
-*/
-
-/* ===== RESET ===== */
 
 *{
 
-margin:0;
-
-padding:0;
-
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 
 }
 
 html{
 
-scroll-behavior:smooth;
+    scroll-behavior:smooth;
 
 }
 
 body{
 
-background:var(--bg);
+    background:var(--bg);
+    color:var(--text);
 
-color:var(--text);
+    font-family:Inter,system-ui,sans-serif;
 
-font-family:Inter,system-ui,sans-serif;
+    line-height:1.6;
 
-line-height:1.6;
-
-overflow-x:hidden;
+    overflow-x:hidden;
 
 }
