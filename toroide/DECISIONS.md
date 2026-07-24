@@ -1,71 +1,101 @@
-# Architecture Decisions
+# Architecture Decision Records
+
+---
 
 ## ADR-001
 
+### Decision
+
 Se utilizan Design Tokens para evitar colores hardcodeados.
 
-Estado:
-Aceptado
+### Status
+
+Accepted
+
+### Reason
+
+Permiten consistencia visual, escalabilidad y mantenimiento sencillo.
 
 ---
 
 ## ADR-002
 
+### Decision
+
 Cada hoja CSS tiene una única responsabilidad.
 
-Estado:
-Aceptado
+### Status
+
+Accepted
+
+### Reason
+
+Reduce el acoplamiento y facilita el crecimiento del proyecto.
 
 ---
 
 ## ADR-003
 
+### Decision
+
 Toroide prioriza precisión sobre espectacularidad.
 
-Estado:
-Aceptado
+### Status
 
-# Architectural Decisions
+Accepted
+
+### Reason
+
+La confianza se construye mediante consistencia, no mediante efectos.
 
 ---
 
-## AD-001
+## ADR-004
 
-The project is built around systems instead of pages.
+### Decision
 
-Status:
+El proyecto se construye alrededor de sistemas y no de páginas.
+
+### Status
+
 Accepted
 
-Reason:
+### Reason
 
-Scalability and long-term consistency.
+La arquitectura debe sobrevivir al crecimiento del contenido.
 
 ---
 
-## AD-002
+## ADR-005
 
-HTML stays semantic.
+### Decision
 
-CSS owns presentation.
+HTML mantiene la semántica.
 
-JavaScript owns behavior.
+CSS controla la presentación.
 
-Status:
+JavaScript controla el comportamiento.
+
+### Status
+
 Accepted
 
-Reason:
+### Reason
 
-Clear separation of responsibilities.
+Una separación clara de responsabilidades mejora la mantenibilidad.
 
 ---
 
-## AD-003
+## ADR-006
 
-Documentation is part of the product.
+### Decision
 
-Status:
+La documentación forma parte del producto.
+
+### Status
+
 Accepted
 
-Reason:
+### Reason
 
-Knowledge must survive memory.
+El conocimiento debe sobrevivir a la memoria del creador.
