@@ -1,88 +1,38 @@
-/*
-
-──────────────────────────────────────
-
-Hero
-
-Purpose
-
-Landing presentation
-
-Dependencies
-
-tokens.css
-
-layout.css
-
-──────────────────────────────────────
-
-*/
+/* ======================================================
+   Proyecto Toroide
+   Version: 0.1
+   File: tokens.css
+   Purpose: Global Design Tokens
+   Dependencies: None
+====================================================== */
 
 :root{
 
-    /* Backgrounds */
+    /* ===== COLORS ===== */
 
-    --background:#0E1116;
-    --surface:#161B22;
+    --bg:#0B0B0C;
+    --surface:#131417;
 
-    /* Text */
+    --text:#F5F5F7;
+    --muted:#9CA3AF;
 
-    --text-primary:#F5F7FA;
-    --text-secondary:#B7C0CC;
+    --line:#24262B;
 
-    /* Brand */
+    --accent:#D72638;
+    --accent-secondary:#F6C344;
+    --success:#4CAF50;
 
-    --accent-red:#D72638;
-    --accent-green:#2ECC71;
-    --accent-yellow:#F4D03F;
+    /* ===== SPACING ===== */
 
-    /* Layout */
+    --space-xs:.5rem;
+    --space-sm:1rem;
+    --space-md:2rem;
+    --space-lg:4rem;
+    --space-xl:8rem;
 
-    --radius:16px;
+    /* ===== LAYOUT ===== */
 
-    --shadow:0 10px 30px rgba(0,0,0,.25);
-
-}
-
-
-:root{
-
-/* Colors */
-
---bg:#0B0B0C;
-
---surface:#131417;
-
---text:#F5F5F7;
-
---muted:#9CA3AF;
-
---line:#24262B;
-
---accent:#D72638;
-
---accent-secondary:#F6C344;
-
---success:#4CAF50;
-
-/* Spacing */
-
---space-xs:.5rem;
-
---space-sm:1rem;
-
---space-md:2rem;
-
---space-lg:4rem;
-
---space-xl:8rem;
-
-/* Radius */
-
---radius:12px;
-
-/* Width */
-
---content-width:1200px;
+    --content-width:1200px;
+    --radius:12px;
 
 }
