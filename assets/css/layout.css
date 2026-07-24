@@ -1,35 +1,16 @@
-/*
-
-──────────────────────────────────────
-
-Hero
-
-Purpose
-
-Landing presentation
-
-Dependencies
-
-tokens.css
-
-layout.css
-
-──────────────────────────────────────
-
-*/
+/* ======================================================
+   Proyecto Toroide
+   Version: 0.1
+   File: layout.css
+   Purpose: Global Layout System
+   Dependencies:
+   - tokens.css
+====================================================== */
 
 .container{
 
-    width:min(90%,1200px);
+    width:min(92%,var(--content-width));
 
-    margin:auto;
-
-}
-
-.container{
-
-width:min(92%,var(--content-width));
-
-margin-inline:auto;
+    margin-inline:auto;
 
 }
