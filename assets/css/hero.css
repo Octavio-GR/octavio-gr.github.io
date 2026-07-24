@@ -47,3 +47,27 @@ layout.css
     align-items:center;
 
 }
+
+#hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.hero-content{
+
+text-align:center;
+
+display:flex;
+
+flex-direction:column;
+
+gap:1rem;
+
+}
