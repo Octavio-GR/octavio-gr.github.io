@@ -24,8 +24,26 @@ layout.css
 
     display:flex;
 
+    justify-content:center;
+
     align-items:center;
 
-    justify-content:center;
+    padding:4rem 2rem;
+
+}
+
+.hero-content{
+
+    width:min(900px,100%);
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+    align-items:center;
 
 }
