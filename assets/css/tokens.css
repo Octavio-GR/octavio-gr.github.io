@@ -52,5 +52,12 @@
 /* ===== GRID ===== */
 
 --grid-size:48px;
+   
+/* ===== ATMOSPHERE ===== */
 
+--silence:1;
+
+--curiosity:1;
+
+--precision:1;
 }
