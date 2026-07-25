@@ -136,6 +136,14 @@ Cada archivo debe explicar por qué existe.
 
 ---
 
+## RULE #019
+
+Identity is constrained.
+
+Personality emerges.
+
+---
+
 ## RULE #020
 
 Una auditoría nunca reemplaza el progreso.
