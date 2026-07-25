@@ -23,3 +23,13 @@ Identity over aesthetics
 Documentation over memory
 
 Consistency over speed
+
+Current Phase
+
+Phase 4 — Perception
+
+Status
+
+The architecture exists.
+
+Now the observatory begins to appear.
