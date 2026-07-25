@@ -40,3 +40,24 @@ Resume
 
 Contact
 → ¿Cómo me contactas?
+
+## AI Council
+
+Architect
+ChatGPT
+
+Technical Auditor
+Gemini
+
+Documentation Editor
+Claude
+
+Research
+Grok
+
+Implementation Assistant
+GitHub Copilot
+
+Every AI has one responsibility.
+
+No overlapping responsibilities.
