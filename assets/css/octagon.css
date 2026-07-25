@@ -1,1 +1,28 @@
+/* ======================================================
+   Proyecto Toroide
+   Version: 0.1
+   File: octagon.css
+   Purpose: Toroide Symbol
+   Dependencies:
+   - tokens.css
+====================================================== */
 
+.octagon{
+
+    width:140px;
+    aspect-ratio:1;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    clip-path:polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+
+}
