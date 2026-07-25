@@ -1,65 +1,102 @@
 # Toroide Audits
 
----
+## Audit History
 
-## Audit 001
+### Audit #001 — Gemini 2.5 Pro
 
 Date:
 2026-07-24
 
-Reviewer:
-Gemini 2.5 Pro
-
 Status:
-Reviewed
+Completed
 
-Summary:
+Summary
 
 Excellent architectural understanding.
 
-Main strengths:
-- Documentation
-- Scalability
-- CSS organization
+Accepted observations
 
-Accepted observations:
 - Accessibility
 - SVG optimization
 - rem units
 - Future GitHub Actions
 
-Discussed:
+Rejected
+
 - Static Site Generator
-- Build pipeline
+- Runtime JavaScript
 
-Rejected:
-- Zero JavaScript philosophy
-
-Decision:
+Decision
 
 No architectural changes required.
 
-Action Items:
+---
 
-AI-001
-Accessibility
+### Audit #002 — Gemini
 
-AI-002
-SVG Optimization
+Date:
+2026-07-25
 
-AI-003
-Future Build Pipeline
+Status:
+Completed
+
+Summary
+
+Production UX and Hero perception.
+
+Accepted observations
+
+- Hero needs more depth.
+- CTA hierarchy requires refinement.
+- Background grid behaves correctly.
+
+Deferred
+
+- Skip links
+- CTA restructuring
 
 ---
 
-# Auditor Guidelines
+### Audit #003 — Gemini (Fortune 500)
 
-An audit must distinguish between:
+Date:
+2026-07-25
 
-- Current implementation
-- Future recommendations
-- Assumptions
+Status:
+Completed
 
-Future architecture proposals must never be reported as implemented features.
+Summary
 
-Every statement should be backed by observable evidence whenever possible.
+Governance and engineering audit.
+
+Outstanding
+
+- Link checker
+- HTML/CSS minification
+- Asset optimization
+
+Ignored
+
+- contain:content
+
+# Current Audit Status
+
+Implemented
+
+- Focus ring
+- Semantic headings
+- CSS modularization
+- rem units
+- Documentation synchronization
+
+Pending
+
+- Hero perception refinement
+- Link checker
+- Asset optimization
+- HTML/CSS minification
+
+Rejected
+
+- Runtime JavaScript
+- Premature build complexity
