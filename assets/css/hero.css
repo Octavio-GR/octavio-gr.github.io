@@ -112,3 +112,28 @@
     isolation:isolate;
 
 }
+
+#hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        radial-gradient(
+
+            circle at center,
+
+            rgba(255,255,255,.04),
+
+            transparent 60%
+
+        );
+
+    z-index:-1;
+
+}
+
