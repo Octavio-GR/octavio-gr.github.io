@@ -105,3 +105,10 @@
 
 }
 
+#hero{
+
+    position:relative;
+
+    isolation:isolate;
+
+}
