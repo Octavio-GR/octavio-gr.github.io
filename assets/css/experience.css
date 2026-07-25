@@ -19,3 +19,31 @@
     gap:var(--space-lg);
 
 }
+
+.experience-item{
+
+    border-left:1px solid var(--line);
+
+    padding-left:var(--space-md);
+
+}
+
+.experience-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:baseline;
+
+    margin-bottom:var(--space-xs);
+
+}
+
+.experience-role{
+
+    color:var(--muted);
+
+    margin-bottom:var(--space-sm);
+
+}
