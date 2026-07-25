@@ -74,3 +74,14 @@
     letter-spacing:-0.04em;
 
 }
+
+.hero-content p{
+
+    color:var(--muted);
+
+    max-width:42rem;
+
+    margin-inline:auto;
+
+}
+
