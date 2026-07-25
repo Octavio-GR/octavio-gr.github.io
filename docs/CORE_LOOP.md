@@ -1,11 +1,12 @@
-# CORE LOOP
+# Core Loop
 
-Toroide evolves through observation.
+Toroide is not built through inspiration.
 
-Nothing is implemented first.
+Toroide is built through observation.
 
-Every improvement follows the same cycle.
+Every meaningful improvement follows the same cycle.
 
+```
 Observation
 
 ↓
@@ -31,9 +32,18 @@ Documentation
 ↓
 
 Observation
+```
 
 The loop never ends.
 
-The product grows by reducing uncertainty, not by increasing complexity.
+No implementation exists without a documented decision.
+
+No documented decision exists without evidence.
+
+No evidence is accepted without observation.
+
+Complexity is never added for its own sake.
+
+Every iteration should reduce uncertainty, improve clarity, or strengthen the system.
 
 If an idea cannot survive this loop, it should not become part of Toroide.
