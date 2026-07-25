@@ -1,20 +1,20 @@
-/*
+/* ======================================================
+   Proyecto Toroide
+   Version: 0.1
+   File: components.css
+   Purpose: Reusable Components
+   Dependencies:
+   - tokens.css
+====================================================== */
 
-──────────────────────────────────────
+.card{
 
-Hero
+    background:var(--surface);
 
-Purpose
+    border:1px solid var(--line);
 
-Landing presentation
+    border-radius:var(--radius);
 
-Dependencies
+    padding:var(--space-md);
 
-tokens.css
-
-layout.css
-
-──────────────────────────────────────
-
-*/
-/* Components */
+}
