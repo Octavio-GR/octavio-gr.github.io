@@ -1,7 +1,29 @@
-# Roadmap
+# ROADMAP
 
-Sprint 1 ✅
+## Phase 1
+Foundation
+✅ Complete
 
-Sprint 2 ✅
+## Phase 2
+Identity
+✅ Complete
 
-Sprint 3 🚧
+## Phase 3
+Architecture
+✅ Complete
+
+## Phase 4
+Perception
+🚧 In Progress
+
+Current focus
+
+- Hero
+- Visual hierarchy
+- Atmosphere
+- Rhythm
+- Depth
+
+Next milestone
+
+Visual Identity
