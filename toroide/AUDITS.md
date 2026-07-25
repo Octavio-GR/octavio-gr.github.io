@@ -49,3 +49,17 @@ SVG Optimization
 
 AI-003
 Future Build Pipeline
+
+---
+
+# Auditor Guidelines
+
+An audit must distinguish between:
+
+- Current implementation
+- Future recommendations
+- Assumptions
+
+Future architecture proposals must never be reported as implemented features.
+
+Every statement should be backed by observable evidence whenever possible.
