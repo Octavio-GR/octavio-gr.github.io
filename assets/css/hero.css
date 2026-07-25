@@ -91,3 +91,17 @@
 
 }
 
+.observatory-tag{
+
+    color:var(--accent-secondary);
+
+    font-size:.8rem;
+
+    letter-spacing:.35em;
+
+    text-transform:uppercase;
+
+    opacity:.75;
+
+}
+
