@@ -35,4 +35,22 @@
     --content-width:1200px;
     --radius:12px;
 
+/* ===== MOTION ===== */
+
+--transition-fast:180ms;
+
+--transition-normal:300ms;
+
+--transition-slow:600ms;
+
+/* ===== DEPTH ===== */
+
+--blur-soft:12px;
+
+--blur-strong:24px;
+
+/* ===== GRID ===== */
+
+--grid-size:48px;
+
 }
