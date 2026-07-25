@@ -1,0 +1,21 @@
+/* ======================================================
+   Proyecto Toroide
+   File: experience.css
+   Purpose: Experience section
+====================================================== */
+
+#experience{
+
+    padding-block:var(--space-xl);
+
+}
+
+.experience-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:var(--space-lg);
+
+}
