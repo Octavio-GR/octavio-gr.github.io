@@ -47,3 +47,13 @@ Interaction
 Priority 4
 
 Decoration
+
+## Perception Goals
+
+The first emotion is more important than the first click.
+
+Silence is intentional.
+
+Every visual element must justify its existence.
+
+Depth should be felt before it is noticed.
