@@ -19,3 +19,7 @@ Every accent color should behave like a distant star.
 Nothing moves without purpose.
 
 Curiosity is the primary interaction.
+
+Toroide follows museum discipline.
+
+Toroide evokes observatory curiosity.
