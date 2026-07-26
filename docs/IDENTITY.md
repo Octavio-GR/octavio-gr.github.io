@@ -2,17 +2,17 @@
 
 ## Who am I
 
-I build systems that reduce uncertainty.
+Projects rarely fail because of a lack of effort.
 
-That instinct did not begin with software. It began by learning that reality matters more than assumptions, that observation comes before conclusions, and that every decision becomes stronger when it can be verified instead of defended.
+More often, they fail because assumptions remain invisible, decisions cannot be verified, and knowledge disappears faster than it is documented.
 
-I naturally approach problems by listening before changing, understanding before optimizing, and documenting before moving on. Whether the system involves people, processes, information or technology, I look for the relationships that make it work—and the friction that prevents it from doing so.
+Toroide exists to make those assumptions visible.
 
-I don't measure engineering by how complex a solution becomes, but by how much clearer it leaves the people who depend on it.
+Its architecture favors observation before conclusions, evidence before opinion, and documentation before memory.
 
-If someone works with me, I don't expect them to remember every decision I made.
+The result is not a system that depends on its author.
 
-I expect them to find a system they can understand, trust, and continue improving without me.
+It is a system that other people can understand, verify, and continue.
 
 ## What I build
 
