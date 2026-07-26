@@ -64,6 +64,26 @@ When people can inspect a system, verify its decisions, and continue its evoluti
 
 ## Why Toroide exists
 
-## Current status
+---
+
+## Current Status
+
+Toroide is under construction.
+
+The architecture exists.
+
+The documentation exists.
+
+The evidence is beginning to exist.
+
+The interface is becoming the observable consequence of those decisions.
+
+---
 
 ## Future
+
+Toroide will continue growing through evidence.
+
+New ideas will not be added because they sound interesting.
+
+They will be added only after they can be observed, inspected, documented, and justified.
