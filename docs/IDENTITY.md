@@ -34,7 +34,21 @@ The objective does not.
 
 Every project should become easier to inspect, easier to understand, and easier to continue by someone else.
 
+---
+
 ## Principles
+
+Everything inside Toroide follows a small set of principles.
+
+- Structure before decoration.
+- Evidence before opinion.
+- Observation before conclusion.
+- Documentation before memory.
+- Systems before pages.
+
+These principles are not repeated here.
+
+They are defined, expanded, and justified throughout the project documentation.
 
 ## Philosophy
 
