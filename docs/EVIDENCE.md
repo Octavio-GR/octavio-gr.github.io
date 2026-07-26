@@ -1,6 +1,10 @@
 # EVIDENCE
 
-Toroide distinguishes between:
+Toroide distinguishes between different kinds of evidence.
+
+Nothing should become a permanent claim unless at least one form of evidence exists.
+
+---
 
 ## Claim
 
@@ -16,11 +20,11 @@ Example:
 
 Something a visitor can directly perceive.
 
-Example:
+Examples:
 
-Navigation hierarchy.
-Loading behavior.
-Typography consistency.
+- Navigation hierarchy
+- Loading behavior
+- Typography consistency
 
 ---
 
@@ -28,12 +32,12 @@ Typography consistency.
 
 Something inspectable.
 
-Example:
+Examples:
 
-Source code.
-Documentation.
-ADR.
-Audit.
+- Source code
+- Documentation
+- ADR
+- Audit
 
 ---
 
@@ -41,68 +45,61 @@ Audit.
 
 Something reproducible.
 
-Example:
+Examples:
 
-Performance metrics.
-Accessibility score.
-Bundle size.
-Build time.
-
----
-
-Nothing should become a permanent claim unless at least one form of evidence exists.
-
-# EVIDENCE
-
-Toroide does not ask to be believed.
-
-Every important statement must eventually become observable.
+- Performance metrics
+- Accessibility score
+- Bundle size
+- Build time
 
 ---
 
-## Current Evidence
+# Current Evidence
 
-### Architecture
+## Architecture
+
+Observable
 
 - Static HTML
 - Modular CSS
 - Zero client-side runtime
 - Documentation-first development
 
-Status:
-Observable
-
 ---
 
-### Documentation
+## Documentation
+
+Observable
 
 - Rulebook
 - Roadmap
 - Design System
 - Foundations
+- Principles
 - ADRs
 - Audit history
 
-Status:
-Observable
-
 ---
 
-### Philosophy
+## Philosophy
+
+Partially observable
 
 Claims:
-- Reduce uncertainty.
-- Structure before decoration.
-- Evidence before opinion.
 
-Status:
-Partially observable.
+- Reduce uncertainty
+- Structure before decoration
+- Evidence before opinion
 
-Needs implementation.
+Current status:
+
+Requires implementation through real artifacts.
 
 ---
 
-### Perception
+## Perception
+
+Prototype
 
 Goal:
 
@@ -114,12 +111,28 @@ The first seconds should communicate:
 
 Current status:
 
-Prototype.
+Validated conceptually.
 
-Needs validation.
+Requires observable implementation.
 
 ---
 
-This document grows only when Toroide can demonstrate something.
+## Future Evidence
 
-Not when Toroide promises something.
+Planned
+
+- Progressive Disclosure
+- Context Stack
+- Engineering Exhibits
+- Interactive Evidence
+- Project Demonstrations
+
+---
+
+## Rule
+
+Toroide does not ask to be believed.
+
+Toroide asks to be inspected.
+
+Every important statement should eventually become observable.
