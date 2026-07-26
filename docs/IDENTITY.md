@@ -50,7 +50,15 @@ These principles are not repeated here.
 
 They are defined, expanded, and justified throughout the project documentation.
 
+---
+
 ## Philosophy
+
+Toroide is built around a simple assumption:
+
+Understanding is more valuable than persuasion.
+
+When people can inspect a system, verify its decisions, and continue its evolution, trust becomes a consequence—not a promise.
 
 ## Engineering
 
