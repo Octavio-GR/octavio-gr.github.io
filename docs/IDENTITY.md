@@ -16,7 +16,23 @@ Everything inside the project follows the same expectation:
 
 If it cannot be observed, inspected, or demonstrated, it should not become a permanent claim.
 
+---
+
 ## What I build
+
+I build systems that reduce uncertainty.
+
+Sometimes those systems are technical.
+
+Sometimes they are operational.
+
+Sometimes they are documentation.
+
+The medium changes.
+
+The objective does not.
+
+Every project should become easier to inspect, easier to understand, and easier to continue by someone else.
 
 ## Principles
 
