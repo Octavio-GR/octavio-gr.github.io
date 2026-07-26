@@ -38,6 +38,10 @@ Next milestone
 
 Visual Identity
 
+Exit condition:
+
+The project explains itself before explaining its author.
+
 ## Phase 5
 
 Materialization
