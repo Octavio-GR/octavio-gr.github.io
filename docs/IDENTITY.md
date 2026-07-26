@@ -1,18 +1,20 @@
-# Identity
+# IDENTITY
 
-## Who am I
+## Who am I?
 
-Projects rarely fail because of a lack of effort.
+I am interested in systems that become easier to understand after someone interacts with them.
 
-More often, they fail because assumptions remain invisible, decisions cannot be verified, and knowledge disappears faster than it is documented.
+Over time I discovered that uncertainty rarely disappears by adding more information. It disappears when structure makes relationships visible.
 
-Toroide exists to make those assumptions visible.
+That idea eventually became Toroide.
 
-Its architecture favors observation before conclusions, evidence before opinion, and documentation before memory.
+Toroide is not a portfolio.
 
-The result is not a system that depends on its author.
+It is an observatory built to document engineering decisions, expose evidence, and reduce uncertainty through structure instead of persuasion.
 
-It is a system that other people can understand, verify, and continue.
+Everything inside the project follows the same expectation:
+
+If it cannot be observed, inspected, or demonstrated, it should not become a permanent claim.
 
 ## What I build
 
