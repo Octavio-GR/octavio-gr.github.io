@@ -96,3 +96,24 @@ Technical debt must be:
 - Reviewable.
 
 Undocumented debt does not exist.
+
+---
+
+TD-005
+
+Standardize Exhibit Directory
+
+Current exhibit folders mix thematic categories and numbered exhibits.
+
+Future work:
+
+All published exhibits should follow:
+
+exhibits/
+    001-...
+    002-...
+    003-...
+
+Status
+
+Deferred
