@@ -14,7 +14,7 @@ Title:
 Octagon visual refinement
 
 Status:
-Open
+Observed
 
 Priority:
 Low
@@ -73,7 +73,7 @@ Title:
 Hero CTA hierarchy
 
 Status:
-Open
+Deferred
 
 Priority:
 Low
