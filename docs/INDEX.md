@@ -1,24 +1,47 @@
 # Documentation Index
 
-## Governance
-- RULEBOOK.md
-- ANTI_RULEBOOK.md
-- AI_TEAM.md
+## Core
+
+- README
+- ROADMAP
+- RULEBOOK
+- ANTI_RULEBOOK
+
+---
+
+## Identity
+
+- IDENTITY
+- MANIFESTO
+- VOICE
+- PHILOSOPHY
+- PRINCIPLES
+- FOUNDATIONS
+
+---
 
 ## Architecture
-- IA.md
-- DESIGN_SYSTEM.md
-- STRUCTURE.md
 
-## Vision
-- MANIFESTO.md
-- VOICE.md
-- FOUNDATIONS.md
+- IA
+- DESIGN_SYSTEM
+- STRUCTURE
+- COMPONENTS
 
-## Project
-- ROADMAP.md
-- AUDITS.md
-- COMPONENTS.md
+---
 
-## Decisions
-- DECISIONS.md
+## Evidence
+
+- EVIDENCE
+- PROOF
+- EXHIBITS
+- OBSERVATIONS
+- FIRST_10_SECONDS
+
+---
+
+## Engineering
+
+- AUDITS
+- TECH_DEBT
+- DECISIONS
+- AI_TEAM
