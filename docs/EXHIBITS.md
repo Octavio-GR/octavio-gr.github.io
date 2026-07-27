@@ -16,7 +16,7 @@ It allows inspection.
 Zero JavaScript Runtime
 
 Status:
-Planned
+In Progress
 
 Evidence:
 exhibits/zero-javascript-runtime/
