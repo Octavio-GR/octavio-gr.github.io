@@ -21,6 +21,9 @@ In Progress
 Evidence:
 exhibits/zero-javascript-runtime/
 
+Location:
+exhibits/001-toroide-construction/
+
 ---
 
 ### EX-002
