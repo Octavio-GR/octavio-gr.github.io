@@ -47,3 +47,13 @@ Remove everything that does not improve understanding.
 ## FOundation 006 - Silent Architecture
 
 The structure does not need a name to govern; the design merely bears witness to it.
+
+---
+
+Related
+
+FIRST_10_SECONDS.md
+
+PHILOSOPHY.md
+
+PRINCIPLES.md
