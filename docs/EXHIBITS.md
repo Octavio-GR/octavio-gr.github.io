@@ -30,7 +30,7 @@ exhibits/001-toroide-construction/
 Documentation-first Architecture
 
 Status:
-Planned
+Implemented
 
 Evidence:
 exhibits/documentation-first/
