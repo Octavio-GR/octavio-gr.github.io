@@ -117,3 +117,24 @@ exhibits/
 Status
 
 Deferred
+
+---
+
+## TD-006
+
+Title:
+Repository naming consistency
+
+Status:
+Deferred
+
+Priority:
+Low
+
+Reason:
+
+The repository currently uses `component/` while the intended convention is `components/`.
+
+The current name does not affect functionality.
+
+The rename will be performed during a future repository cleanup to preserve Git history.
