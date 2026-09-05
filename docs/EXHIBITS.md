@@ -12,28 +12,14 @@ It allows inspection.
 
 ## Planned Exhibits
 
-### EX-001
-Zero JavaScript Runtime
-
-Status:
-In Progress
-
-Evidence:
-exhibits/zero-javascript-runtime/
-
-Location:
-exhibits/001-toroide-construction/
-
----
-
-### EX-002
-Documentation-first Architecture
-
-Status:
-Implemented
-
-Evidence:
-exhibits/documentation-first/
+- **EX-001**: Toroide Construction
+  - Status: In Progress
+  - Path: `exhibits/001-toroide-construction/`
+  - Focus: Demonstrating public, observable construction where architecture decisions precede implementation.
+- **EX-002**: Zero JavaScript Runtime
+  - Status: In Progress
+  - Path: `exhibits/002-zero-javascript-runtime/`
+  - Focus: Demonstrating full functionality and layout without reliance on client-side execution.
 
 ---
 
