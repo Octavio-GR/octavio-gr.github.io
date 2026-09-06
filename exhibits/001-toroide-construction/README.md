@@ -1,83 +1,15 @@
 # EX-001 — Toroide Construction
 
-Status
-
-In Progress
-
----
-
 ## Question
-
-Can an engineering project become understandable before it becomes complete?
-
----
+How can a digital project maintain absolute transparency by making its architectural evolution publicly observable from inception?
 
 ## Observation
+Traditional portfolios conceal the messy evolution of engineering projects, presenting only a polished final product that lacks historical context or verifiable design decisions. Toroide treats construction itself as an observable artifact, ensuring every architectural choice is recorded, tracked, and verifiable from the ground up.
 
-Toroide is being built in public.
+## Architecture & Implementation
+- **Public Observability**: Core concepts, directory hierarchies, and design decisions are exposed directly in the repository structure.
+- **Documentation-First Workflow**: Architectural decisions precede code implementation, enforcing rigorous intent before execution.
+- **Static Artifacts**: Built entirely using native web fundamentals without intermediate build pipelines or hidden state generators.
 
-Every architectural decision is documented before implementation.
-
-Documentation is treated as part of the engineering process rather than as a final artifact.
-
----
-
-## Evidence
-
-Current observable artifacts:
-
-- Static HTML
-- Modular CSS
-- Documentation-first workflow
-- Rulebook
-- Foundations
-- ADRs
-- Technical Debt register
-- Audit history
-- Progressive implementation
-
-Each artifact can be inspected independently.
-
----
-
-## Current Implementation
-
-The architecture exists.
-
-The documentation exists.
-
-The visual system is under refinement.
-
-The project is transitioning from documented ideas to observable exhibits.
-
----
-
-## What this Exhibit demonstrates
-
-This exhibit documents the construction process itself.
-
-Instead of presenting a finished portfolio, Toroide exposes how its architecture, documentation, and implementation evolve together.
-
-Construction is part of the product.
-
----
-
-## Next Iteration
-
-Future revisions of this exhibit will include:
-
-- Timeline of architectural milestones.
-- Before/after interface comparisons.
-- Decisions linked to ADRs.
-- Observable metrics.
-- Cross-references to future exhibits.
-
----
-
-## Related Documents
-
-- IDENTITY
-- FOUNDATIONS
-- EVIDENCE
-- TECH_DEBT
-- ROADMAP
+## Verification
+Inspect the project directory tree and historical commit logs to verify that architectural foundations were established explicitly prior to interface scaling.

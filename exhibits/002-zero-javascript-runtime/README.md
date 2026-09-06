@@ -1,52 +1,15 @@
 # EX-002 — Zero JavaScript Runtime
 
-Status
-
-Implemented
-
----
-
 ## Question
-
-Can a modern engineering portfolio communicate effectively without relying on client-side JavaScript?
-
----
+How can a modern web architecture achieve maximum performance, resilience, and predictability without relying on client-side JavaScript execution?
 
 ## Observation
+Modern web development frequently suffers from over-engineering, heavy framework runtimes, and unnecessary client-side hydration for static content. Toroide proves that complete layouts, structured navigation, and responsive experiences can be delivered using pure HTML and CSS, eliminating runtime errors and performance degradation.
 
-Toroide renders as static HTML.
+## Architecture & Implementation
+- **Pure Semantic Markup**: Core layout and structure rely exclusively on native HTML5 elements.
+- **CSS-Driven Presentation**: Styling, spacing, and responsive behavior are handled entirely through clean stylesheets without DOM manipulation scripts.
+- **Zero Hydration Overhead**: Instant page loads and zero layout shifts caused by asynchronous script execution.
 
-Navigation, typography, and content remain available without executing client-side code.
-
-The visitor receives the complete document immediately.
-
----
-
-## Evidence
-
-Observable today:
-
-- Static HTML pages.
-- No client-side framework.
-- No hydration.
-- No SPA routing.
-- Inspectable source code.
-- Progressive enhancement remains possible.
-
----
-
-## Current Implementation
-
-Toroide intentionally prioritizes simplicity, inspectability, and long-term durability over runtime complexity.
-
-JavaScript is optional.
-
-Understanding is not.
-
----
-
-## Related Documents
-
-- FOUNDATIONS
-- EVIDENCE
-- TECH_DEBT
+## Verification
+Inspect the source code of any exhibit page or check browser network activity to confirm a complete absence of client-side JavaScript runtimes while maintaining full functionality.
