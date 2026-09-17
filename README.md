@@ -12,7 +12,7 @@ Identity
 
 Architecture
 
-In Progress
+Materialization
 
 ## Project Principles
 
@@ -24,12 +24,11 @@ Documentation over memory
 
 Consistency over speed
 
-Current Phase
+## Current Phase
 
-Phase 4 — Perception
+Phase 5 — Materialization
 
-Status
+Status:
 
-The architecture exists.
-
-Now the observatory begins to appear.
+The architecture and exhibits are fully verified.
+Empirical evidence governs implementation.
