@@ -1,15 +1,16 @@
 # EX-005 — Accessibility
 
 ## Question
-How can a zero-JavaScript architecture ensure universal usability, high contrast ratios, and clear semantic hierarchy?
+How can a web interface ensure semantic hierarchy, strong contrast, and keyboard accessibility without relying on client-side scripts or heavy overlays?
 
 ## Observation
-Accessibility (a11y) is frequently treated as an afterthought solved by heavy accessibility overlays or client-side scripts. Toroide treats accessibility as an inherent property of semantic HTML structure and strict CSS styling, ensuring absolute compliance with native browser tools and assistive technologies.
+This exhibit demonstrates accessibility fundamentals through semantic HTML, high-contrast color tokens, and preservation of native browser interaction behavior.
 
 ## Architecture & Implementation
-- **Semantic HTML**: Extensive use of structural elements (`<main>`, `<section>`, `<article>`, `<nav>`, `<blockquote>`) instead of generic structural divs.
-- **Visual Contrast**: Dark-mode-first aesthetic tuned for optimal contrast ratios on text and interactive anchor links.
-- **Native Focus States**: Predictable keyboard navigation powered entirely by native CSS focus outlines without JavaScript event listeners.
+- **Semantic Structure**: Layout relies on native document elements (`<main>`, `<article>`) and logical heading hierarchies (`<h1>`, `<h2>`).
+- **Contrast**: The primary color tokens `--text: #F5F5F7` and `--bg: #0B0B0C` produce a calculated contrast ratio of approximately **18.07:1**.
+- **Focus Behavior**: The stylesheet contains no `:focus`, `:focus-visible`, `outline`, or `box-shadow` rules, leaving focus behavior to the browser's native interaction model.
+- **Zero Script Reliance**: No JavaScript is used to manage focus, ARIA state, or dynamic contrast adjustments.
 
 ## Verification
-Run a native browser accessibility audit (Lighthouse) on any exhibit page to verify high performance, correct heading hierarchy, and zero layout shift without client-side scripts.
+Inspect the HTML source for semantic elements and heading hierarchy, verify the `--text` and `--bg` token values and their calculated contrast ratio, and navigate interactive elements with the `Tab` key to observe browser-provided focus behavior.
