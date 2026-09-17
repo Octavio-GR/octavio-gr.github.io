@@ -126,7 +126,7 @@ Title:
 Repository naming consistency
 
 Status:
-Deferred
+Completed
 
 Priority:
 Low
