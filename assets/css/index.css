@@ -1,37 +1,13 @@
 /*
-
-──────────────────────────────────────
-
-Hero
-
-Purpose
-
-Landing presentation
-
-Dependencies
-
-tokens.css
-
-layout.css
-
-──────────────────────────────────────
-
+  File: index.css
+  Purpose: Main CSS aggregator for Toroide architecture
+  Dependencies: tokens.css, style.css, layout.css, components.css, hero.css, octagon.css, experience.css
 */
 
 @import url("tokens.css");
-
 @import url("style.css");
-
 @import url("layout.css");
-
-@import url("typography.css");
-
 @import url("components.css");
-
 @import url("hero.css");
-
-@import url("sections.css");
-
 @import url("octagon.css");
-
-@import "experience.css";
+@import url("experience.css");

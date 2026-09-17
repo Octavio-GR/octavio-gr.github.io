@@ -1,155 +1,27 @@
-/* ======================================================
-   Proyecto Toroide
-   Version: 0.1
-   File: hero.css
-   Purpose: Hero Section
-   Dependencies:
-   - tokens.css
-   - layout.css
-====================================================== */
+/*
+  File: hero.css
+  Purpose: Hero section layout, spacing, and typography
+  Dependencies: tokens.css
+*/
 
-#hero{
-
-    min-height:100vh;
-
-    display:flex;
-
-    align-items:center;
-    justify-content:center;
-
-    padding:4rem 2rem;
-
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 6rem 0;
 }
 
-.hero-content{
-
-    width:min(900px,100%);
-
-    margin:auto;
-
-    display:flex;
-    flex-direction:column;
-
-    gap:1.5rem;
-
-    align-items:center;
-    text-align:center;
-
+.hero-content h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+    color: var(--text-main);
 }
 
-.hero-content small{
-
-    color:var(--muted);
-
-    letter-spacing:.2rem;
-
-    text-transform:uppercase;
-
-    font-size:.75rem;
-
-}
-
-.hero-content h1{
-
-    font-size:clamp(3rem,8vw,5rem);
-
-    font-weight:700;
-
-}
-
-.hero-content p{
-
-    color:var(--muted);
-
-    font-size:1.1rem;
-
-}
-
-.hero-content h1{
-
-    font-size:clamp(3rem,8vw,6rem);
-
-    font-weight:700;
-
-    letter-spacing:-0.04em;
-
-}
-
-.hero-content p{
-
-    color:var(--muted);
-
-    max-width:42rem;
-
-    margin-inline:auto;
-
-}
-
-.hero-content{
-
-    padding-inline:2rem;
-
-}
-
-.observatory-tag{
-
-    color:var(--accent-secondary);
-
-    font-size:.8rem;
-
-    letter-spacing:.35em;
-
-    text-transform:uppercase;
-
-    opacity:.75;
-
-}
-
-#hero{
-
-    position:relative;
-
-    isolation:isolate;
-
-}
-
-#hero::before{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-
-        radial-gradient(
-
-            circle at center,
-
-            rgba(255,255,255,.04),
-
-            transparent 60%
-
-        );
-
-    z-index:-1;
-
-}
-
-
-
-    border:1px solid rgba(255,255,255,.08);
-
-    background:
-        radial-gradient(
-            circle,
-            rgba(255,255,255,.025),
-            transparent 70%
-        );
-
-    backdrop-filter:blur(var(--blur-soft));
-
-    transition:all var(--transition-slow);
-
+.hero-content p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 42rem;
+    margin-bottom: 2rem;
 }
