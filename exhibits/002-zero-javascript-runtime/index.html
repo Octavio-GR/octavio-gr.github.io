@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EX-002 — Zero JavaScript Runtime</title>
+    <title>EX-002 — Zero JavaScript Runtime | Proyecto Toroide</title>
     <link rel="stylesheet" href="../../assets/css/index.css">
 </head>
-
 <body>
-    <main>
+    <main class="exhibit-page">
         <div class="container">
-            <article class="card">
+            <header class="exhibit-header">
+                <small class="exhibit-label">Proyecto Toroide · Exhibit</small>
                 <h1>EX-002 — Zero JavaScript Runtime</h1>
-
-                <p><strong>Status</strong><br>Verified</p>
-
-                <h2>Question</h2>
-                <p>Can a modern web portfolio function fully without client-side JavaScript?</p>
-
-                <h2>Observation</h2>
-                <p>This exhibit demonstrates that its structure, navigation, and presentation can rely entirely on static HTML and modular CSS.</p>
-
-                <h2>Evidence</h2>
-                <ul>
-                    <li>Zero script tags</li>
-                    <li>No external client-side frameworks</li>
-                    <li>Static HTML delivery without client-side JavaScript</li>
-                </ul>
-
-                <h2>Current Status</h2>
-                <p>
-                    Runtime audit complete.<br>
-                    No client-side JavaScript required for core content or navigation.
-                </p>
-
-                <hr>
-
-                <p>
-                    <a href="README.md">Read Full Documentation →</a>
-                </p>
-
-                <p>
-                    <a href="../../index.html">← Return to Toroide</a>
-                </p>
-            </article>
+                <span class="exhibit-status">Verified</span>
+            </header>
+            <div class="exhibit-content">
+                <section class="exhibit-section">
+                    <h2>Question</h2>
+                    <p>Can complex layout and responsive behavior exist without client-side scripting?</p>
+                </section>
+                <section class="exhibit-section">
+                    <h2>Observation</h2>
+                    <p>Modern CSS capabilities (Grid, Flexbox, Container Queries, calc()) eliminate the need for JavaScript in structural layout and basic interactivity.</p>
+                </section>
+                <section class="exhibit-section">
+                    <h2>Evidence</h2>
+                    <ul class="exhibit-evidence">
+                        <li>0 bytes of JavaScript shipped to the client for layout.</li>
+                        <li>Responsive adaptation handled entirely by CSS math functions.</li>
+                        <li>Network payload reduced.</li>
+                        <li>Zero hydration overhead.</li>
+                    </ul>
+                </section>
+                <section class="exhibit-section">
+                    <h2>Current Status</h2>
+                    <p>This exhibit is currently served with 0 bytes of JavaScript.</p>
+                </section>
+                <footer class="exhibit-footer">
+                    <p><a href="README.md">Read Full Documentation →</a></p>
+                    <p><a href="../../index.html">← Return to Toroide</a></p>
+                </footer>
+            </div>
         </div>
     </main>
 </body>
-
 </html>
