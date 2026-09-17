@@ -6,15 +6,18 @@ Toroide established its architectural foundation.
 
 Governance, documentation, design system and development philosophy became stable before content production.
 
-# Phase 4 — Perception
+---
+
+## Milestone 002 — Materialization & Empirical Verification
 
 Status:
-Functional
+Completed
 
 Result:
 
-Toroide now possesses a coherent philosophical, architectural and documentary identity.
+- Exhibits EX-001 through EX-005 fully audited, validated, and synchronized.
+- Replaced unverified marketing claims with empirical code evidence (e.g., WCAG 18.07:1 contrast ratio, zero-runtime JS confirmation).
+- Exhibits registry and interface cards successfully transitioned from provisional states to **Verified**.
+- Obsolete structural artifacts purged and archived in the project graveyard.
 
-The project no longer depends on future intentions to explain itself.
-
-The remaining work consists primarily of transforming documented principles into observable artifacts.
+The project successfully demonstrates public, observable construction where architecture and empirical evidence govern implementation.
