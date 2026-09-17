@@ -1,15 +1,19 @@
 # EX-002 — Zero JavaScript Runtime
 
 ## Question
-How can a modern web architecture achieve maximum performance, resilience, and predictability without relying on client-side JavaScript execution?
+
+How can a web interface provide its core content and navigation without requiring client-side JavaScript execution?
 
 ## Observation
-Modern web development frequently suffers from over-engineering, heavy framework runtimes, and unnecessary client-side hydration for static content. Toroide proves that complete layouts, structured navigation, and responsive experiences can be delivered using pure HTML and CSS, eliminating runtime errors and performance degradation.
+
+Many modern web interfaces depend on client-side JavaScript for rendering, navigation, and interaction. Toroide demonstrates that an exhibit can provide its core content, structure, and navigation using native HTML and CSS, without requiring a JavaScript runtime.
 
 ## Architecture & Implementation
-- **Pure Semantic Markup**: Core layout and structure rely exclusively on native HTML5 elements.
-- **CSS-Driven Presentation**: Styling, spacing, and responsive behavior are handled entirely through clean stylesheets without DOM manipulation scripts.
-- **Zero Hydration Overhead**: Instant page loads and zero layout shifts caused by asynchronous script execution.
+
+- **Semantic HTML**: The exhibit structure is implemented using native HTML elements and standard document semantics.
+- **CSS-Driven Presentation**: Layout, spacing, typography, and responsive presentation are handled through stylesheets without DOM manipulation scripts.
+- **Native Navigation**: Navigation relies on standard HTML links and browser behavior rather than client-side routing.
 
 ## Verification
-Inspect the source code of any exhibit page or check browser network activity to confirm a complete absence of client-side JavaScript runtimes while maintaining full functionality.
+
+Inspect the exhibit source code and network activity to verify that the page does not load or execute client-side JavaScript while its core content and navigation remain functional.
