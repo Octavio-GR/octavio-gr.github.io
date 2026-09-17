@@ -99,8 +99,9 @@ Undocumented debt does not exist.
 
 ---
 
-TD-005
+## TD-005
 
+Title:
 Standardize Exhibit Directory
 
 Current exhibit folders mix thematic categories and numbered exhibits.
@@ -114,9 +115,8 @@ exhibits/
     002-...
     003-...
 
-Status
-
-Deferred
+Status:
+Completed
 
 ---
 
