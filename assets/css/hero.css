@@ -1,27 +1,64 @@
 /*
   File: hero.css
-  Purpose: Hero section layout, spacing, and typography
+  Purpose: Hero section layout, precision typography, and aesthetics
   Dependencies: tokens.css
 */
 
 #hero {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     position: relative;
-    padding: 6rem 0;
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+}
+
+.observatory-tag {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: var(--space-md);
+    border: 1px solid var(--accent);
+    padding: 0.35rem 0.75rem;
 }
 
 .hero-content h1 {
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
     letter-spacing: -0.04em;
-    margin-bottom: 1rem;
-    color: var(--text-main);
+    margin-bottom: 0.5rem;
+    color: var(--text);
+    line-height: 1.1;
 }
 
 .hero-content p {
     font-size: 1.1rem;
-    color: var(--text-muted);
-    max-width: 42rem;
-    margin-bottom: 2rem;
+    color: var(--muted);
+    max-width: 48rem;
+    margin-bottom: var(--space-lg);
+    line-height: 1.5;
+}
+
+.hero-nav {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.hero-nav a {
+    font-family: monospace;
+    color: var(--muted);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease;
+}
+
+.hero-nav a:hover {
+    color: var(--text);
+    border-bottom: 1px solid var(--accent-secondary);
 }

@@ -1,144 +1,80 @@
-/* ======================================================
-   Proyecto Toroide
-   Version: 0.1
-   File: components.css
-   Purpose: Reusable Components
-   Dependencies:
-   - tokens.css
-====================================================== */
+/*
+  File: components.css
+  Purpose: Reusable UI components
+  Dependencies: tokens.css
+*/
 
-.card{
-
-    background:var(--surface);
-
-    border:1px solid var(--line);
-
-    border-radius:var(--radius);
-
-    padding:var(--space-md);
-
+.card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
 }
 
-/* ======================================================
-   Exhibit Page
-   ====================================================== */
-
-.exhibit-page{
-
-    min-height:100vh;
-
-    padding:
-        var(--space-lg)
-        0;
-
+.exhibit-page {
+    padding-top: var(--space-xl);
 }
 
-.exhibit-header{
-
-    margin-bottom:var(--space-lg);
-
-    max-width:800px;
-
+.exhibit-header {
+    margin-bottom: var(--space-xl);
 }
 
-.exhibit-label{
-
-    display:block;
-
-    margin-bottom:var(--space-sm);
-
-    color:var(--accent-secondary);
-
-    font-size:.75rem;
-
-    letter-spacing:.25em;
-
-    text-transform:uppercase;
-
+.exhibit-label {
+    font-family: monospace;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.85rem;
+    margin-bottom: var(--space-sm);
+    display: block;
 }
 
-.exhibit-header h1{
-
-    margin-bottom:var(--space-sm);
-
-    font-size:clamp(2.5rem,6vw,4.5rem);
-
-    letter-spacing:-.04em;
-
+.exhibit-status {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    margin-bottom: var(--space-lg);
+    text-transform: uppercase;
 }
 
-.exhibit-status{
-
-    display:inline-block;
-
-    margin-top:var(--space-sm);
-
-    padding:.35rem .7rem;
-
-    border:1px solid var(--line);
-
-    border-radius:999px;
-
-    color:var(--muted);
-
-    font-size:.8rem;
-
-    text-transform:uppercase;
-
-    letter-spacing:.08em;
-
+.exhibit-content {
+    max-width: 65ch;
 }
 
-.exhibit-content{
-
-    display:grid;
-
-    gap:var(--space-md);
-
-    max-width:900px;
-
+.exhibit-section {
+    margin-bottom: var(--space-xl);
 }
 
-.exhibit-section{
-
-    padding-top:var(--space-md);
-
-    border-top:1px solid var(--line);
-
+.exhibit-evidence {
+    border-left: 2px solid var(--accent);
+    padding-left: var(--space-md);
+    margin: var(--space-lg) 0;
+    color: var(--muted);
+    background: rgba(239, 68, 68, 0.05); /* Very subtle tint */
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
 }
 
-.exhibit-section h2{
-
-    margin-bottom:var(--space-sm);
-
-    color:var(--text);
-
+.exhibit-footer {
+    margin-top: var(--space-xl);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.exhibit-evidence{
-
-    padding-left:1.25rem;
-
-}
-
-.exhibit-footer{
-
-    margin-top:var(--space-lg);
-
-    padding-top:var(--space-md);
-
-    border-top:1px solid var(--line);
-
-}
-
-.exhibit-footer a{
-
-    color:var(--muted);
-
-}
-
-.exhibit-footer a:hover{
-
-    color:var(--text);
-
+/* Section Labels */
+.section-label {
+    font-family: monospace;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-md);
+    display: block;
+    font-size: 0.85rem;
 }

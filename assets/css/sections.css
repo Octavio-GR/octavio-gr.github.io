@@ -1,0 +1,104 @@
+/*
+  File: sections.css
+  Purpose: Section-specific layouts and overrides
+  Dependencies: tokens.css
+*/
+
+#identity, #thinking, #contact, #observatory {
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--line);
+}
+
+#contact { border-bottom: none; }
+
+#identity .card {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+#identity h3 {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#identity blockquote {
+    border-left: 2px solid var(--accent);
+    padding-left: var(--space-md);
+    margin: var(--space-lg) 0;
+    font-style: italic;
+    color: var(--text);
+}
+
+#identity ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#identity ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--muted);
+}
+
+#identity ul li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--accent-secondary);
+}
+
+#thinking ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+#thinking li a {
+    display: block;
+    padding: var(--space-md);
+    border: 1px solid var(--line);
+    color: var(--muted);
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease;
+    background: transparent;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+#thinking li a:hover {
+    color: var(--text);
+    border-color: var(--accent);
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: var(--space-lg);
+}
+
+#contact a {
+    font-family: monospace;
+    color: var(--text);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+    font-size: 0.9rem;
+}
+
+#contact a:hover {
+    border-bottom-color: var(--accent-secondary);
+}
