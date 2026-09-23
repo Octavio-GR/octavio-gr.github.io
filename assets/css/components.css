@@ -78,3 +78,10 @@
     display: block;
     font-size: 0.85rem;
 }
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+}
