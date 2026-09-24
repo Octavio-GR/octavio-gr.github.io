@@ -1,20 +1,25 @@
 /* ======================================================
    Proyecto Toroide
-   Version: 0.1
    File: octagon.css
-   Purpose: Toroide Symbol
+   Purpose: Toroide geometric identity
    Dependencies:
    - tokens.css
 ====================================================== */
 
-.octagon{
+.octagon {
+    position: absolute;
 
-    width:140px;
-    aspect-ratio:1;
+    width: clamp(180px, 22vw, 300px);
+    aspect-ratio: 1;
 
-    border:1px solid rgba(255,255,255,.12);
+    right: clamp(2rem, 8vw, 8rem);
+    top: 50%;
 
-    clip-path:polygon(
+    transform: translateY(-50%);
+
+    border: 1px solid rgba(255,255,255,.10);
+
+    clip-path: polygon(
         30% 0%,
         70% 0%,
         100% 30%,
@@ -24,5 +29,72 @@
         0% 70%,
         0% 30%
     );
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.025),
+            transparent 45%,
+            rgba(215,38,56,.025)
+        );
+
+    box-shadow:
+        0 0 80px rgba(215,38,56,.04);
+
+    opacity: .9;
+
+    pointer-events: none;
+}
+
+.octagon::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 12%;
+
+    border: 1px solid rgba(246,195,68,.12);
+
+    clip-path: inherit;
+}
+
+.octagon::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 24%;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    clip-path: inherit;
+}
+
+@media (max-width: 900px) {
+
+    .octagon {
+        width: 180px;
+
+        right: -30px;
+
+        opacity: .45;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .octagon {
+        width: 140px;
+
+        right: -30px;
+
+        top: auto;
+        bottom: 2rem;
+
+        transform: none;
+
+        opacity: .25;
+    }
 
 }

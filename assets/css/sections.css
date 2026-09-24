@@ -102,3 +102,6 @@
 #contact a:hover {
     border-bottom-color: var(--accent-secondary);
 }
+.contact-title {
+    margin-top: var(--space-lg);
+}

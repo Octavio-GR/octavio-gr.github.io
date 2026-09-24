@@ -1,0 +1,101 @@
+/*
+  File: navigation.css
+  Purpose: Persistent Toroide navigation
+  Dependencies: tokens.css
+*/
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    border-bottom: 1px solid var(--line);
+
+    background:
+        linear-gradient(
+            rgba(11, 11, 12, 0.94),
+            rgba(11, 11, 12, 0.94)
+        );
+
+    backdrop-filter: blur(var(--blur-soft));
+}
+
+.site-nav .container {
+    min-height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: var(--space-md);
+}
+
+.site-nav-brand {
+    color: var(--text);
+    text-decoration: none;
+
+    font-family: monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+}
+
+.site-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: var(--space-md);
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav-links a {
+    color: var(--muted);
+
+    font-family: monospace;
+    font-size: 0.75rem;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    transition:
+        color var(--transition-fast) ease,
+        border-color var(--transition-fast) ease;
+}
+
+.site-nav-links a:hover,
+.site-nav-links a:focus-visible {
+    color: var(--text);
+    border-bottom: 1px solid var(--accent);
+}
+
+@media (max-width: 700px) {
+
+    .site-nav .container {
+        align-items: flex-start;
+        flex-direction: column;
+
+        padding-top: var(--space-sm);
+        padding-bottom: var(--space-sm);
+    }
+
+    .site-nav-links {
+        width: 100%;
+
+        justify-content: flex-start;
+
+        gap: var(--space-sm);
+
+        flex-wrap: wrap;
+    }
+
+}
