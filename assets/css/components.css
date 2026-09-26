@@ -4,13 +4,6 @@
   Dependencies: tokens.css
 */
 
-.card {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    padding: var(--space-lg);
-    border-radius: var(--radius-md);
-}
-
 .exhibit-page {
     padding-top: var(--space-xl);
 }
@@ -85,36 +78,27 @@
     padding: var(--space-lg);
     border-radius: var(--radius);
 }
+
 footer {
     border-top: 1px solid var(--line);
-
     padding: var(--space-md) 0;
-
     color: var(--muted);
-
     font-family: monospace;
-
     font-size: 0.75rem;
-
     letter-spacing: 0.04em;
 }
 
 footer .container {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
-
     gap: var(--space-md);
 }
 
 footer a {
     color: var(--muted);
-
     text-decoration: none;
-
     border-bottom: 1px solid transparent;
-
     transition:
         color var(--transition-fast) ease,
         border-color var(--transition-fast) ease;
@@ -123,7 +107,6 @@ footer a {
 footer a:hover,
 footer a:focus-visible {
     color: var(--text);
-
     border-bottom-color: var(--accent-secondary);
 }
 
@@ -131,7 +114,6 @@ footer a:focus-visible {
 
     footer .container {
         align-items: flex-start;
-
         flex-direction: column;
     }
 
