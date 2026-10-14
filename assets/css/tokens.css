@@ -61,9 +61,3 @@
 
 --precision:1;
 }
-
-
-/* ===== LAYOUT ===== */
---content-width:1200px;
---radius:12px;
---radius-md: var(--radius);
