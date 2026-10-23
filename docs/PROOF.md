@@ -12,7 +12,7 @@ Every major claim should eventually point to observable evidence.
 
 | Claim | Evidence | Status |
 |--------|----------|--------|
-| Zero JavaScript Runtime | Source code | Pending |
+| Zero JavaScript Runtime (no first-party JS required for core layout/navigation) | Static source inspection; third-party runtime not excluded | Partial |
 | Accessibility | Lighthouse / Audit | Pending |
 | Static Architecture | Repository | Pending |
 | Documentation-first | docs/ | Complete |

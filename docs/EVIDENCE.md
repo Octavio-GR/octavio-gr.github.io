@@ -1,4 +1,4 @@
-﻿# EVIDENCE
+# EVIDENCE
 
 Toroide distinguishes between different kinds of evidence.
 
@@ -87,15 +87,15 @@ Observable
 
 ## Exhibits
 
-Verified
+Implementation status recorded in the exhibit registry; claim-level evidence is tracked separately in `PROOF.md`.
 
 - EX-001 — Toroide Construction
-- EX-002 — Zero JavaScript Runtime
+- EX-002 — Zero JavaScript Runtime: core layout and navigation do not require first-party JavaScript; third-party scripts are outside this claim.
 - EX-003 — Progressive Disclosure
 - EX-004 — Context Stack
 - EX-005 — Accessibility
 
-The individual exhibits contain the implementation and detailed evidence for their respective claims.
+An exhibit's implementation status does not automatically verify every quantitative or runtime claim associated with it.
 
 ---
 
