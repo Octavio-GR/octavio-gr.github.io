@@ -9,7 +9,9 @@
     border-bottom: 1px solid var(--line);
 }
 
-#contact { border-bottom: none; }
+#contact {
+    padding-bottom: calc(var(--space-lg) + 8rem);
+}
 
 #identity .card {
     background: transparent;
@@ -62,7 +64,7 @@
     margin-top: var(--space-lg);
 }
 
-#thinking li a {
+#thinking .exhibit-list li a {
     display: block;
     padding: var(--space-md);
     border: 1px solid var(--line);
@@ -74,7 +76,7 @@
     font-size: 0.9rem;
 }
 
-#thinking li a:hover {
+#thinking .exhibit-list li a:hover {
     color: var(--text);
     border-color: var(--accent);
 }
@@ -104,4 +106,36 @@
 }
 .contact-title {
     margin-top: var(--space-lg);
+}
+
+/* F8-A11Y-01: native return links after primary content sections. */
+.section-top-link-wrapper {
+    margin-block: var(--space-xl) 0;
+    text-align: right;
+}
+
+.section-top-link {
+    display: inline-block;
+    padding: 0.5rem 0;
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.section-top-link:hover {
+    color: var(--text);
+}
+
+.section-top-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+/* F8-A11Y-01: offset all anchor targets below sticky navigation. */
+:target {
+    scroll-margin-top: 7rem;
+}
+/* F8-A11Y-01: keep the Contact anchor visible below sticky navigation. */
+#contact-heading {
+    scroll-margin-top: 7rem;
 }

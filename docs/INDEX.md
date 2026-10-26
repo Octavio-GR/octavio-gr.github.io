@@ -41,7 +41,7 @@
 
 ## Engineering
 
-- AUDITS
+- [AUDITS — Technical Audit Reports](AUDITS/README.md)
 - TECH_DEBT
 - DECISIONS
 - AI_TEAM
