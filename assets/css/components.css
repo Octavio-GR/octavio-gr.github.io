@@ -4,18 +4,27 @@
   Dependencies: tokens.css
 */
 
+/* Documentation visual hierarchy */
 .exhibit-page {
-    padding-top: var(--space-xl);
+    padding-top: clamp(3rem, 8vw, 6rem);
+    padding-bottom: var(--space-lg);
+}
+
+.exhibit-page .container {
+    width: min(92%, 1200px);
 }
 
 .exhibit-header {
+    max-width: 65ch;
     margin-bottom: var(--space-xl);
 }
 
 .exhibit-header h1 {
     max-width: 20ch;
     margin-bottom: var(--space-sm);
+    color: var(--text);
     font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.035em;
 }
@@ -23,12 +32,63 @@
 .exhibit-header > p {
     max-width: 65ch;
     color: var(--muted);
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    line-height: 1.8;
+}
+
+.exhibit-content {
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.8;
 }
 
 .exhibit-section h2 {
     margin-bottom: var(--space-sm);
+    color: var(--text);
     font-size: clamp(1.25rem, 3vw, 1.65rem);
+    font-weight: 600;
     line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.exhibit-section p,
+.exhibit-section li {
+    color: var(--muted);
+}
+
+.exhibit-section a {
+    color: var(--accent-secondary);
+    text-decoration-thickness: 1px;
+}
+
+.exhibit-section a:hover {
+    color: var(--text);
+}
+
+.foundation-vitruvius {
+    padding: var(--space-md);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    background: var(--surface);
+}
+
+.foundation-vitruvius li {
+    color: var(--text);
+}
+
+@media (max-width: 600px) {
+    .exhibit-page {
+        padding-top: var(--space-lg);
+    }
+
+    .exhibit-header,
+    .exhibit-section {
+        margin-bottom: var(--space-lg);
+    }
+
+    .foundation-vitruvius {
+        padding: var(--space-sm);
+    }
 }
 
 .exhibit-content p {
@@ -110,6 +170,7 @@
 }
 
 
+
 /* Legacy documentation pages */
 body.exhibit-page > main > section {
     max-width: 65ch;
@@ -135,6 +196,7 @@ body.exhibit-page > main > section ol {
 body.exhibit-page > main > section li + li {
     margin-top: var(--space-xs);
 }
+
 /* Section Labels */
 .section-label {
     font-family: monospace;
