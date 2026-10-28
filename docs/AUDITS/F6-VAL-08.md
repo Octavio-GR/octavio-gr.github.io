@@ -23,4 +23,4 @@ COMPLETED / VERIFIED
 
 ## Exit Condition
 
-Toroide's Phase 6 (Validation) is 100% complete. The project is fully audited, verified, observable, and ready for future roadmap phases.
+Phase 6 validation is complete within the scope recorded in its validation artifacts. This does not establish exhaustive verification of all runtime behavior, security controls, accessibility conformance, or production configuration. The project may proceed to future roadmap phases subject to the documented limitations and follow-ups.

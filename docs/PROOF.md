@@ -17,8 +17,8 @@ Every major claim should eventually point to observable evidence.
 | Static Architecture | Repository | Pending |
 | Documentation-first | docs/ | Complete |
 | System over pages | Repository structure | Partial |
-| Progressive Disclosure | Not implemented | Future |
-| Context Stacking | Not implemented | Future |
+| Progressive Disclosure | EX-003 exhibit; implementation scope requires separate verification | Exhibit documented; capability not independently verified |
+| Context Stacking | EX-004 documentation and Git history | Documentation mechanism present; completeness of decision records not verified |
 | Evidence-first | EVIDENCE.md | Complete |
 
 ---

@@ -23,7 +23,7 @@ COMPLETED WITH LIMITATIONS
 
 ### E-02 — EX-004 source consistency
 
-The current `exhibits/004-context-stack/README.md` describes operational-state continuity and decision history. Its `index.html` asks how the interface maintains situational awareness across zoom levels and lists breadcrumbs, URL hierarchy, and scope indicators as evidence. The two files therefore present different questions and evidence models.
+The current `exhibits/004-context-stack/README.md` and `index.html` use the same project-continuity question. Their supporting descriptions differ in emphasis: the README makes broad claims about recording every development step and preserving exact decision state, while the HTML explicitly limits its claim and notes that completeness must be assessed against repository history. The evidence supports a difference in claim strength and supporting detail, not the previously stated difference in questions.
 
 This is a documentation-alignment observation. It is not, by itself, proof of a visual rendering defect.
 
@@ -49,9 +49,9 @@ Repeated declarations or selector patterns do not independently establish a rend
 ### M7-VISUAL-01-F02 — EX-004 content alignment
 
 **Severity:** Low
-**Status:** Confirmed static documentation inconsistency; remediation deferred.
+**Status:** Original question-mismatch claim not supported by the current source; claim-scope alignment remains a consideration.
 
-The README and HTML describe different questions and evidence. This requires a separately scoped content-alignment decision and is not classified as a confirmed visual defect in M-06.
+The README and HTML share the same question, but differ in claim strength and supporting detail. Any further content alignment should be scoped separately; no confirmed visual defect is established by this finding.
 
 ### M7-VISUAL-01-F03 — Runtime and accessibility limits
 
@@ -71,7 +71,7 @@ This record does not establish browser rendering consistency, responsive behavio
 
 M-06 is closed as a static review with limitations. No HTML or CSS changes are justified solely by the available visual-review findings.
 
-The EX-004 documentation inconsistency remains a separate follow-up. The external review's alternate EX-004 path remains unreconciled and is explicitly excluded from verified scope.
+The earlier claim that README and HTML ask different questions is not supported by the current source. Differences in claim strength remain a separate content-alignment consideration. The external review's alternate EX-004 path remains unreconciled and is explicitly excluded from verified scope.
 
 ## References
 

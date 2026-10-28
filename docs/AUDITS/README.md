@@ -9,7 +9,7 @@ The status shown for each report reflects its declared status, not an independen
 
 ## Phase 6 — Validation
 
-- [F6-VAL-01 — System Audit](F6-VAL-01.md) — **IN PROGRESS**.
+- [F6-VAL-01 — System Audit](F6-VAL-01.md) — **COMPLETED WITH LIMITATIONS**.
 - [F6-VAL-02 — Documentation Audit](F6-VAL-02.md) — **COMPLETED / VERIFIED**.
 - [F6-VAL-03 — HTML/CSS Audit](F6-VAL-03.md) — **COMPLETED / VERIFIED**.
 - [F6-VAL-04 — Accessibility Audit](F6-VAL-04.md) — **COMPLETED / VERIFIED**.
