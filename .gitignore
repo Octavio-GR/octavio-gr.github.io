@@ -148,3 +148,6 @@ __pycache__/
 *.pyc
 *.pyo
 server.py
+
+# Local backup artifacts (kept outside the repository)
+*.bak

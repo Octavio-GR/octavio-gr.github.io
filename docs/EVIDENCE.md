@@ -135,6 +135,21 @@ Planned
 
 ---
 
+## Repository Backup Hygiene — 2026-10-28
+
+Status: Locally verified; publication pending.
+
+- 92 untracked `.bak` backup files were moved outside the repository.
+- A CSV manifest was generated with 92 entries.
+- Individual SHA-256 and file-size comparisons were reported as successful during the archive operation.
+- The archive and manifest are stored locally under the sibling `graveyard/repo-backups-20261028-204023` directory, outside the repository.
+- The original cleanup check reported zero remaining `.bak` files. A subsequent audit identified five additional local `.bak` files; all are ignored by `*.bak` and none are tracked.
+- The `.gitignore` rule `*.bak` was verified with `git check-ignore`.
+- The `.gitignore` change remains uncommitted and unpublished at the time of this record.
+
+Scope limitation: the local archive and manifest are not public evidence artifacts. This record does not claim that the `.gitignore` change has been committed, pushed, or deployed.
+
+---
 ## Rule
 
 Toroide does not ask to be believed.

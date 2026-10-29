@@ -1,4 +1,4 @@
-﻿# Toroide Audits
+# Toroide Audits
 
 ## Audit History
 
@@ -145,6 +145,36 @@ The repository is sufficiently documented to proceed to professional presentatio
 
 ---
 
+### Audit #006 — Repository Backup Hygiene
+
+Date:
+2026-10-28
+
+Status:
+Local maintenance completed; documentation and publication pending.
+
+Summary
+
+Removed temporary `.bak` backup artifacts from the repository working tree after copying them to an external local archive. The archive operation reported successful individual SHA-256 and file-size verification for 92 files. A 92-entry CSV manifest was generated.
+
+Verified Findings
+
+- The original cleanup check reported zero remaining `.bak` files. A subsequent audit identified five additional local `.bak` files; all are ignored by `*.bak` and none are tracked.
+- `.gitignore` contains the `*.bak` exclusion rule.
+- `git check-ignore` confirms the rule matches a representative backup path.
+- The current Git worktree contains a change to `.gitignore`; it has not yet been committed or pushed.
+
+Corrective Actions
+
+- Preserve the verified backup archive and manifest outside the repository.
+- Record the maintenance evidence in `docs/EVIDENCE.md`.
+- Commit and push the reviewed documentation and `.gitignore` change after validation.
+
+Decision
+
+No architectural redesign or milestone reopening is required. This is a repository hygiene operation consistent with the project's existing operational-maturity principles.
+
+---
 # Current Audit Status
 
 Implemented
