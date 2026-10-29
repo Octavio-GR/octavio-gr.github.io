@@ -55,13 +55,24 @@
     color: var(--accent-secondary);
 }
 
-#thinking ul {
+#thinking .exhibit-list {
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-md);
     margin-top: var(--space-lg);
+}
+
+#thinking article.card > ul {
+    list-style: disc;
+    padding-left: var(--space-lg);
+    display: block;
+    margin-top: var(--space-sm);
+}
+
+#thinking article.card > ul li {
+    margin-bottom: 0.5rem;
 }
 
 #thinking .exhibit-list li a {
@@ -81,6 +92,27 @@
     border-color: var(--accent);
 }
 
+/* Thinking section: secondary content and registry link states. */
+#thinking article.card + h2 {
+    margin-top: clamp(2rem, 5vw, 3.5rem);
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+}
+
+#thinking .container > p a:link,
+#thinking .container > p a:visited {
+    color: var(--accent);
+}
+
+#thinking .container > p a:hover {
+    color: var(--text);
+}
+
+#thinking .container > p a:focus-visible {
+    outline: 2px solid var(--accent-secondary);
+    outline-offset: 3px;
+}
+
 #contact ul {
     list-style: none;
     padding: 0;
@@ -90,7 +122,7 @@
     margin-top: var(--space-lg);
 }
 
-#contact a {
+#contact a:not(.section-top-link) {
     font-family: monospace;
     color: var(--text);
     text-decoration: none;
@@ -101,7 +133,7 @@
     font-size: 0.9rem;
 }
 
-#contact a:hover {
+#contact a:not(.section-top-link):hover {
     border-bottom-color: var(--accent-secondary);
 }
 .contact-title {
@@ -110,21 +142,30 @@
 
 /* F8-A11Y-01: native return links after primary content sections. */
 .section-top-link-wrapper {
-    margin-block: var(--space-xl) 0;
+    width: min(92%, var(--content-width));
+    margin: var(--space-xl) auto 0;
     text-align: right;
 }
 
 .section-top-link {
     display: inline-block;
     padding: 0.5rem 0;
-    color: var(--muted);
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
+    color: var(--text);
+    font-family: monospace;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
 }
 
 .section-top-link:hover {
     color: var(--text);
+    border-bottom-color: var(--accent-secondary);
 }
+
+
 
 .section-top-link:focus-visible {
     outline: 2px solid currentColor;
