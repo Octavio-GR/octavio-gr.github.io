@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 
 $Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $Failures = 0
@@ -41,7 +41,11 @@ Get-ChildItem -Path $Root -Recurse -File -Filter *.html |
                 continue
             }
 
-            $Target = Join-Path $File.DirectoryName $CleanRef
+            if ($CleanRef.StartsWith("/")) {
+                $Target = Join-Path $Root ($CleanRef.TrimStart("/") -replace "/", "\")
+            } else {
+                $Target = Join-Path $File.DirectoryName $CleanRef
+            }
 
             if (-not (Test-Path -LiteralPath $Target)) {
                 Write-Host "BROKEN: $($File.FullName.Replace($Root,'')) -> $Ref" -ForegroundColor Red
