@@ -1,4 +1,4 @@
-# Toroide Audits
+﻿# Toroide Audits
 
 ## Audit History
 
@@ -151,7 +151,7 @@ Date:
 2026-10-28
 
 Status:
-Local maintenance completed; documentation and publication pending.
+Local maintenance completed; documentation and .gitignore changes committed and pushed in df9f3b3. Deployment verification pending.
 
 Summary
 
@@ -162,13 +162,13 @@ Verified Findings
 - The original cleanup check reported zero remaining `.bak` files. A subsequent audit identified five additional local `.bak` files; all are ignored by `*.bak` and none are tracked.
 - `.gitignore` contains the `*.bak` exclusion rule.
 - `git check-ignore` confirms the rule matches a representative backup path.
-- The current Git worktree contains a change to `.gitignore`; it has not yet been committed or pushed.
+- The `.gitignore` exclusion rule and maintenance documentation were committed and pushed in df9f3b3.
 
 Corrective Actions
 
 - Preserve the verified backup archive and manifest outside the repository.
 - Record the maintenance evidence in `docs/EVIDENCE.md`.
-- Commit and push the reviewed documentation and `.gitignore` change after validation.
+- Verify the deployment associated with the published commit and record the observed result.
 
 Decision
 

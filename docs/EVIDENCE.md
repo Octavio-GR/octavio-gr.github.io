@@ -137,7 +137,7 @@ Planned
 
 ## Repository Backup Hygiene — 2026-10-28
 
-Status: Locally verified; publication pending.
+Status: Local maintenance verified; documentation and .gitignore changes committed and pushed in df9f3b3. Deployment verification pending.
 
 - 92 untracked `.bak` backup files were moved outside the repository.
 - A CSV manifest was generated with 92 entries.
@@ -145,9 +145,9 @@ Status: Locally verified; publication pending.
 - The archive and manifest are stored locally under the sibling `graveyard/repo-backups-20261028-204023` directory, outside the repository.
 - The original cleanup check reported zero remaining `.bak` files. A subsequent audit identified five additional local `.bak` files; all are ignored by `*.bak` and none are tracked.
 - The `.gitignore` rule `*.bak` was verified with `git check-ignore`.
-- The `.gitignore` change remains uncommitted and unpublished at the time of this record.
+- The `.gitignore` rule and maintenance documentation were committed and pushed in df9f3b3.
 
-Scope limitation: the local archive and manifest are not public evidence artifacts. This record does not claim that the `.gitignore` change has been committed, pushed, or deployed.
+Scope limitation: the local archive and manifest remain outside the public repository. The `.gitignore` rule and maintenance documentation were committed and pushed in df9f3b3; successful deployment has not yet been verified.
 
 ---
 ## Rule
