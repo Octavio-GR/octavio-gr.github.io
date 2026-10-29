@@ -30,5 +30,5 @@ Phase 5 — Materialization
 
 Status:
 
-The architecture and exhibits are fully verified.
+The documented architecture and exhibits have undergone scoped validation. Verification status and limitations are recorded in the proof matrix and audit reports.
 Empirical evidence governs implementation.
