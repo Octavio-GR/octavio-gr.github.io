@@ -1,4 +1,4 @@
-﻿# ROADMAP
+# ROADMAP
 
 ## Phase 1
 Foundation ✅ Complete
@@ -26,10 +26,10 @@ Operationally mature
 Milestone 002 — Materialization & Empirical Verification
 Completed
 
-- EX-001 through EX-005 verified.
+- EX-001 through EX-005 have documented statuses; verification scope and limitations are recorded in the exhibit registry and supporting evidence.
 - Evidence registry published.
 - Exhibit documentation synchronized with implementation.
-- Empirical accessibility and zero-runtime claims validated.
+- Zero-runtime and accessibility claims have scoped validation records; this does not establish exhaustive runtime verification or full WCAG 2.1 AA conformance.
 
 Milestone 003 — Information Architecture & Technical / Operational Maturity
 Completed

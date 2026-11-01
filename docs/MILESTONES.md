@@ -1,4 +1,6 @@
-﻿# Milestones
+# Milestones
+
+> Status semantics: Completed records closure of the stated milestone work; it does not imply exhaustive independent verification of every associated claim. Current claim-level statuses and limitations are authoritative in the exhibit registry, proof map, evidence records, and audit reports.
 
 ## Milestone 001
 
@@ -15,9 +17,9 @@ Completed
 
 Result:
 
-- Exhibits EX-001 through EX-005 fully audited, validated, and synchronized.
+- Exhibit documentation and registry records were reconciled; each exhibit retains its own verification status and documented limitations.
 - Replaced unverified marketing claims with empirical code evidence.
-- Exhibits registry and interface cards transitioned from provisional states to Verified.
+- Registry statuses were updated; status labels must not be interpreted as blanket verification of every associated claim.
 - Obsolete structural artifacts purged and archived in the project graveyard.
 
 The project successfully demonstrates public, observable construction where architecture and empirical evidence govern implementation.

@@ -1,6 +1,6 @@
 # Proyecto Toroide — Matriz maestra de trazabilidad
 
-- **Estado:** Borrador para revisión; no integrado en `main`
+- **Estado:** Integrado en `main`; matriz de trabajo sujeta a reconciliación documental.
 - **Fecha de elaboración:** 2026-10-28
 - **Repositorio de referencia:** `Octavio-GR/octavio-gr.github.io`
 - **Línea base documental inspeccionada:** `main`
