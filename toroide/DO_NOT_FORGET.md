@@ -57,11 +57,14 @@ Este archivo reemplaza la lista plana de recordatorios por un registro de contin
 - **Siguiente paso:** definir el tono, la pista y la recompensa sin contenido adulto.
 - **Criterio de cierre:** concepto aprobado, accesible por teclado, no engañoso respecto a seguridad y sin exposición de datos personales.
 
-### DF-009 — Logo pendiente de recuperar
+### DF-009 — Reconstrucción de identidad visual pendiente
 - **Estado:** Activa.
-- **Contexto:** el usuario recuerda una promesa conversacional de recibir una propuesta sorpresa. `toroide/LOGO.md` define requisitos, pero los archivos documentales inspeccionados no acreditan que exista un logo final.
-- **Siguiente paso:** revisar conversaciones, bocetos y adjuntos históricos accesibles antes de sustituir el concepto por uno nuevo.
-- **Criterio de cierre:** registrar qué referencias históricas se encontraron y conseguir aprobación explícita de una versión final.
+- **Contexto histórico:** la propuesta geométrica original quedó en preplanificación. No se encontró un SVG original aportado por el usuario. Se autorizó una reconstrucción nueva mediante Ruta B.
+- **Avance acreditado:** prototipo geométrico 2D PT-001-B1 construido con simetría radial exacta de orden 8; XML y transformaciones validados. El usuario otorgó VoBo conceptual a su apariencia.
+- **Artefacto:** `toroide/prototypes/PT-001-B1-annular-geometry-v01.svg`.
+- **Siguiente paso:** construir el modelo tridimensional y derivar el símbolo simplificado; evaluar legibilidad monocroma y a 16x16 píxeles.
+- **Criterio de cierre:** presentar los entregables finales y obtener aprobación explícita del usuario para declarar el logotipo maestro.
+- **Límite:** la finalización del prototipo 2D no equivale al cierre de PT-001.
 
 ### DF-010 — AdSense: aviso de política y contenido de bajo valor
 - **Estado:** Activa.

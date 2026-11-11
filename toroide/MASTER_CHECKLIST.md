@@ -1,6 +1,6 @@
 # TOROIDE — CHECKLIST MAESTRO DE CONTINUIDAD Y CIERRE
 
-**Última reconciliación:** 2026-11-01
+**Última reconciliación:** 2026-11-11
 **Repositorio:** `Octavio-GR/octavio-gr.github.io`
 **Rama de referencia:** `main`
 **Línea base:** `d153eee` — `docs: reconcile roadmap and verification statuses`
@@ -66,10 +66,24 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 
 ### PT-001 — Recuperar y aprobar la identidad visual y el logo
 
-- **Estado:** Pendiente.
-- **Fuente:** `toroide/DO_NOT_FORGET.md` (DF-009) y `toroide/LOGO.md`.
-- **Acción:** revisar las conversaciones, bocetos y adjuntos históricos accesibles antes de reemplazar la idea por una propuesta nueva.
-- **Criterio de cierre:** registrar qué referencias se recuperaron y obtener aprobación explícita del artefacto final, o documentar una decisión de aplazamiento.
+- **Estado:** En curso; PT-001-B1 completada en su alcance geométrico 2D. Modelo tridimensional y logotipo maestro pendientes.
+- **Fuente:** `toroide/DO_NOT_FORGET.md` (DF-009), `toroide/LOGO.md`, historial Git y decisiones explícitas del usuario.
+- **Aclaración histórica:** la geometría anular no llegó a materializarse en un SVG original aportado por el usuario. La definición anterior quedó en preplanificación. El prototipo actual es una reconstrucción nueva, autorizada mediante Ruta B.
+- [x] Recuperar la filosofía de marca y los principios geométricos conceptuales.
+- [x] Definir ocho expansiones exteriores y ocho ondulaciones interiores.
+- [x] Establecer simetría radial exacta de orden 8, con expansiones idénticas cada 45 grados.
+- [x] Definir ocho crestas de igual altura máxima, circuito anular cerrado, vacío central y transiciones orgánicas suaves.
+- [x] Documentar la dirección tridimensional híbrida entre pasarela elevada y volumen monumental, con apariencia flotante.
+- [x] Documentar el campo central translúcido como recurso visual condicionado por la iluminación, no como solución estructural.
+- [x] Construir el prototipo geométrico 2D mediante un sector maestro reutilizado ocho veces.
+- [x] Validar estructura XML, `viewBox`, ocho transformaciones radiales y SHA-256.
+- [x] Registrar el VoBo del usuario a la apariencia propuesta del prototipo 2D. Este VoBo no equivale a inspección visual directa del archivo ni a aprobación del logotipo maestro.
+- **Artefacto PT-001-B1:** `toroide/prototypes/PT-001-B1-annular-geometry-v01.svg`.
+- **SHA-256:** `46AE60568B55278277955C576B760416A24F448F539E008C5827B786E666CE70`.
+- **Estado PT-001-B1:** Completada en cuanto a reconstrucción geométrica 2D, validación técnica y VoBo conceptual.
+- **Acción pendiente:** construir y revisar el modelo tridimensional; derivar el símbolo simplificado; validar legibilidad monocroma y a 16x16 píxeles.
+- **Criterio de cierre PT-001:** presentar el modelo y el símbolo finales, realizar las pruebas acordadas y obtener aprobación explícita del usuario para declarar el logotipo maestro.
+- **Límite:** completar PT-001-B1 no implica completar PT-001.
 
 ### PT-002 — Refinamiento visual del octágono
 
