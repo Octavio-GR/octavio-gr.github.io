@@ -28,15 +28,15 @@ Mantener una única lista rectora de tareas, decisiones, evidencia y criterios d
 - [x] Revisar el alcance del commit `df9f3b3`, que actualizó `.gitignore`, `docs/EVIDENCE.md` y `toroide/AUDITS.md` para documentar la higiene de respaldos.
 - [x] Confirmar que `git ls-files '*.bak'` no devuelve respaldos rastreados.
 - [x] Confirmar la regla `*.bak` de `.gitignore` mediante `git check-ignore`.
-- [x] Confirmar que el inventario local detecta cinco archivos `.bak` ignorados. No eliminarlos como parte de esta reconciliación.
+- [x] Inventariar siete archivos `.bak` locales ignorados: cinco históricos y dos snapshots creados el 2026-11-11. Conservarlos; su procedencia sigue parcialmente pendiente.
 - [x] Mantener los seis PDF nuevos fuera de los commits de mantenimiento.
 - [x] Revisar la conciliación documental de roadmap, hitos y trazabilidad publicada en `d153eee`.
+- [x] MNT-01: verificar el manifiesto externo de respaldos; 92 registros, 92 archivos presentes, 92 verificaciones PASS, cero ausencias y cero discrepancias.
+- [x] MNT-03: completar la corrección puntual de EOL en `toroide/AUDITS.md`; 4,829 bytes, 207 LF, cero CRLF y cero CR aislados. SHA-256: `DCE37E92E83A1D46D7F166E6C6DD5740782F227FC4EA19703B7BF33E48F4D305`.
 
 ### Pendiente
 
-- [ ] Confirmar que el directorio externo `graveyard/repo-backups-20261028-204023` y su manifiesto CSV existen y que el manifiesto corresponde a los 92 respaldos archivados originalmente.
-- [ ] Determinar si los cinco respaldos locales detectados son copias posteriores o forman parte de otra operación. Conservarlos hasta tener una decisión segura.
-- [ ] Resolver de forma mínima la diferencia de finales de línea de `toroide/AUDITS.md` (`i/lf w/mixed`). Inspeccionar el diff y corregir solo si se confirma una discrepancia accidental; no normalizar el archivo completo por defecto.
+- [ ] Investigar la procedencia de los cinco respaldos históricos locales y el origen de los dos archivos `.bak` creados el 2026-11-11. Conservar los siete archivos.
 - [ ] Ejecutar una validación consolidada del alcance exacto de esta intervención.
 - [ ] Verificar el despliegue y la versión publicada después del push; no darlo por hecho a partir de un commit exitoso.
 
@@ -54,7 +54,7 @@ Mantener una única lista rectora de tareas, decisiones, evidencia y criterios d
 
 ### Pendiente; revisar solo cuando corresponda a una tarea concreta
 
-- [ ] `toroide/AUDITS.md`: cerrar la comprobación dirigida de finales de línea y conciliar el resumen con informes individuales solo donde haya una discrepancia concreta.
+- [ ] `toroide/AUDITS.md`: conciliar el resumen con informes individuales solo donde exista una discrepancia concreta. La comprobación dirigida de EOL se completó el 2026-11-11.
 - [ ] `docs/INDEX.md` y `docs/README.md`: verificar rutas y límites entre documentación pública, exhibits y documentación interna.
 - [ ] `docs/FOUNDATIONS.md`, `docs/CORE_LOOP.md` y `toroide/DESIGN_SYSTEM.md`: comprobar coherencia de principios si se modifica la arquitectura o el sistema visual.
 - [ ] `docs/IDENTITY.md` y `docs/IDENTITY_OCTAVIO.md`: distinguir identidad del proyecto y presentación profesional cuando se trabaje la narrativa de empleabilidad.
@@ -195,7 +195,7 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 
 ## 5. Orden recomendado de ejecución
 
-1. [ ] Cerrar la validación dirigida de mantenimiento y la cuestión de los finales de línea, sin limpieza destructiva.
+1. [ ] Cerrar la validación consolidada del alcance de mantenimiento, sin limpieza destructiva.
 2. [ ] Recuperar referencias históricas del logo y decidir identidad visual; después reevaluar la animación y el octágono.
 3. [ ] Inventariar el blog histórico antes de seleccionar contenido para migración.
 4. [ ] Definir el alcance de la demostración matemática del toroide.
