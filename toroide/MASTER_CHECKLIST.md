@@ -1,6 +1,6 @@
 # TOROIDE — CHECKLIST MAESTRO DE CONTINUIDAD Y CIERRE
 
-**Última reconciliación:** 2026-11-11
+**Última reconciliación:** 2026-11-12
 **Repositorio:** `Octavio-GR/octavio-gr.github.io`
 **Rama de referencia:** `main`
 **Línea base:** `d153eee` — `docs: reconcile roadmap and verification statuses`
@@ -28,7 +28,7 @@ Mantener una única lista rectora de tareas, decisiones, evidencia y criterios d
 - [x] Revisar el alcance del commit `df9f3b3`, que actualizó `.gitignore`, `docs/EVIDENCE.md` y `toroide/AUDITS.md` para documentar la higiene de respaldos.
 - [x] Confirmar que `git ls-files '*.bak'` no devuelve respaldos rastreados.
 - [x] Confirmar la regla `*.bak` de `.gitignore` mediante `git check-ignore`.
-- [x] Inventariar siete archivos `.bak` locales ignorados: cinco históricos y dos snapshots creados el 2026-11-11. Conservarlos; su procedencia sigue parcialmente pendiente.
+- [x] Inventariar y clasificar siete archivos `.bak` locales ignorados: cinco históricos y dos snapshots del 2026-11-11. Se conservaron; la procedencia de los siete sigue sin demostrarse.
 - [x] Mantener los seis PDF nuevos fuera de los commits de mantenimiento.
 - [x] Revisar la conciliación documental de roadmap, hitos y trazabilidad publicada en `d153eee`.
 - [x] MNT-01: verificar el manifiesto externo de respaldos; 92 registros, 92 archivos presentes, 92 verificaciones PASS, cero ausencias y cero discrepancias.
@@ -36,9 +36,9 @@ Mantener una única lista rectora de tareas, decisiones, evidencia y criterios d
 
 ### Pendiente
 
-- [ ] Investigar la procedencia de los cinco respaldos históricos locales y el origen de los dos archivos `.bak` creados el 2026-11-11. Conservar los siete archivos.
-- [ ] Ejecutar una validación consolidada del alcance exacto de esta intervención.
-- [ ] Verificar el despliegue y la versión publicada después del push; no darlo por hecho a partir de un commit exitoso.
+- [x] Completar la investigación razonable de procedencia: revisar historial disponible, scripts y referencias locales. No se encontró evidencia suficiente para atribuir el origen de los siete respaldos; conservarlos sin cambios.
+- [x] Ejecutar la validación consolidada del alcance de mantenimiento: manifiesto externo PASS; inventario de respaldos completo con limitación de procedencia; higiene de respaldos rastreados PASS; corrección puntual de EOL PASS; cambios locales ajenos excluidos.
+- [x] Verificar el despliegue de `MASTER_CHECKLIST.md` después del push: HTTP 200 y coincidencia exacta entre el blob publicado y el blob del commit `8f371827742218dc5d74c3b2c851864aa9dc99b7` (SHA de blob `0e5017cb82e818d8b430ffc79dda0448a0b123d3`).
 
 ## 2. Documentación central: estado de reconciliación
 
@@ -195,7 +195,7 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 
 ## 5. Orden recomendado de ejecución
 
-1. [ ] Cerrar la validación consolidada del alcance de mantenimiento, sin limpieza destructiva.
+1. [x] Cerrar la validación consolidada del alcance de mantenimiento, sin limpieza destructiva. La procedencia de los respaldos locales permanece desconocida; no se realizó limpieza destructiva.
 2. [ ] Recuperar referencias históricas del logo y decidir identidad visual; después reevaluar la animación y el octágono.
 3. [ ] Inventariar el blog histórico antes de seleccionar contenido para migración.
 4. [ ] Definir el alcance de la demostración matemática del toroide.
@@ -212,9 +212,9 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 - [ ] Las decisiones diferidas y descartadas no se presentan como trabajo activo.
 - [ ] Las limitaciones conocidas no se expresan como capacidades verificadas.
 - [ ] Los enlaces y las rutas documentales relevantes apuntan a archivos existentes.
-- [ ] La validación consolidada no deja errores sin clasificar.
+- [x] La validación consolidada no deja errores conocidos sin clasificar dentro del alcance acordado; la procedencia de los respaldos queda registrada como no demostrada.
 - [ ] El commit contiene únicamente los archivos aprobados y excluye cambios locales ajenos y los seis PDF.
-- [ ] El despliegue se comprueba después del push; el push por sí solo no acredita el despliegue.
+- [x] El despliegue del checklist se comprobó después del push mediante comparación exacta del blob publicado con el commit `8f371827742218dc5d74c3b2c851864aa9dc99b7`.
 
 ## Regla para evitar ciclos de revisión
 
