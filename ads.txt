@@ -1,0 +1,15 @@
+# ads.txt v1.1 — Proyecto Toroide (https://octaviogro.xyz/)
+
+# Especificación: IAB Tech Lab Ads.txt Specification Version 1.1
+
+
+
+# Declaración de propiedad del dominio (Sección 3.5.1 y 4.7)
+
+OWNERDOMAIN=octaviogro.xyz
+
+
+
+# Vendedor autorizado: Google AdSense
+
+google.com, pub-6427440525356380, DIRECT, f08c47fec0942fa0
