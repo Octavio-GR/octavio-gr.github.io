@@ -1,7 +1,7 @@
 # Toroide Logo
 
 **Estado:** Borrador conceptual; no aprobado como logotipo maestro.
-**Última actualización:** 2026-11-11
+**Última actualización:** 2026-11-15
 
 ## Principios de identidad
 
@@ -81,3 +81,23 @@ Siguen pendientes:
 - Aprobación explícita del logotipo maestro.
 
 No declarar PT-001 completado hasta que exista un artefacto final revisable y el usuario apruebe explícitamente su uso como identidad maestra.
+
+## Símbolo B04 — aprobación 2026-11-15
+
+El usuario seleccionó la dirección B (compacta) y aprobó explícitamente:
+
+- **B04 Regular:** símbolo principal.
+- **B04 Micro:** variante óptica para reproducción pequeña.
+
+Artefactos:
+
+- `toroide/prototypes/PT-001-symbol-B04-regular.svg`
+- `toroide/prototypes/PT-001-symbol-B04-micro.svg`
+- `toroide/prototypes/PT-001-symbol-B04-specification.md`
+- `toroide/prototypes/PT-001-symbol-B04-comparison.png`
+
+La variante Micro amplía el óculo y refuerza los acentos exteriores. Las pruebas comparativas incluyeron positivo, negativo y tamaños de 16, 24, 32, 48 y 64 px.
+
+A 16 px no se garantiza la lectura inequívoca de los ocho lóbulos. Esta limitación queda documentada y no se presenta como una validación superada.
+
+El modelo C1-v0.3 fue aprobado visualmente por el usuario. La aprobación de B04 cierra PT-001 en el alcance de reconstrucción y selección del símbolo; no certifica todas las aplicaciones futuras del sistema de marca.
