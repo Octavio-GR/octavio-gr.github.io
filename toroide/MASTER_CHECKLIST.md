@@ -1,6 +1,6 @@
 # TOROIDE — CHECKLIST MAESTRO DE CONTINUIDAD Y CIERRE
 
-**Última reconciliación:** 2026-11-15
+**Última reconciliación:** 2026-11-18
 **Repositorio:** `Octavio-GR/octavio-gr.github.io`
 **Rama de referencia:** `main`
 **Línea base:** `d153eee` — `docs: reconcile roadmap and verification statuses`
@@ -109,12 +109,20 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 - **Acción:** elegir el concepto matemático que se quiere explicar y la demostración o derivación verificable que lo sustenta.
 - **Criterio de cierre:** explicación precisa, fuente o derivación identificable y visualización fiel si se necesita, con límites documentados.
 
-### PT-005 — Inventario y posible migración del blog histórico
+### PT-005 — Archivo y posible migración del blog histórico
 
-- **Estado:** Activo.
-- **Fuente:** `toroide/DO_NOT_FORGET.md` (DF-005); origen indicado: `redrogue.blogspot.com`.
-- **Acción:** inventariar entradas, imágenes, enlaces, fechas, autoría y dependencias. No importar todo en bloque.
-- **Criterio de cierre:** decisión por contenido (migrar, archivar o descartar), atribución y derechos revisados, y destino registrado.
+- **Estado:** En curso; inventario y criterios editoriales reconciliados. La ejecución del archivo y cualquier publicación/migración siguen pendientes.
+- **Fuente:** `toroide/DO_NOT_FORGET.md` (DF-005); origen indicado: `redrogue.blogspot.com`. El archivo histórico integra Blogger y su continuación gradual en WordPress.
+- **Decisiones editoriales confirmadas por el usuario:**
+  - Conservar el contenido recuperable de Blogger y WordPress, incluidas todas las revisiones y versiones; no es necesario elegir una única versión editorial principal.
+  - Conservar las publicaciones de 2007–2012 como archivo histórico.
+  - Mantener privados los recuerdos y textos personales identificados como tales.
+  - Conservar los archivos multimedia originales, sidecars y duplicados.
+  - Conservar los comentarios y sus datos de procedencia como registros de archivo.
+  - Incorporar medios o comentarios a una publicación únicamente cuando exista evidencia suficiente de su asociación. Si no existe, no incorporarlos a esa publicación; no inferir ni reconstruir asociaciones.
+  - Revisar atribución, derechos y participación de terceros antes de hacer público cualquier contenido. La recuperación integral no equivale a publicación integral.
+- **Acción:** preservar el material recuperado y su procedencia; organizar el archivo histórico y privado según las decisiones anteriores. No importar todo en bloque ni descartar originales, revisiones, medios o comentarios por falta de asociación.
+- **Criterio de cierre:** inventario y destinos de archivo registrados; contenido privado separado del contenido candidato a publicación; medios y comentarios sin asociación demostrable excluidos de las publicaciones; atribución y derechos revisados para cada elemento que se pretenda publicar.
 
 ### PT-006 — Narrativa profesional basada en evidencia
 
@@ -200,7 +208,7 @@ Los identificadores PT son referencias operativas creadas para esta lista, no id
 
 1. [x] Cerrar la validación consolidada del alcance de mantenimiento, sin limpieza destructiva. La procedencia de los respaldos locales permanece desconocida; no se realizó limpieza destructiva.
 2. [ ] Recuperar referencias históricas del logo y decidir identidad visual; después reevaluar la animación y el octágono.
-3. [ ] Inventariar el blog histórico antes de seleccionar contenido para migración.
+3. [ ] Completar el archivo histórico de Blogger y WordPress conforme a las decisiones editoriales de PT-005; evaluar por separado cualquier publicación.
 4. [ ] Definir el alcance de la demostración matemática del toroide.
 5. [ ] Construir la narrativa profesional a partir de artefactos verificables y decidir el destino de los CV.
 6. [ ] Diagnosticar AdSense mediante inventario de URL y políticas vigentes, sin presuponer la causa.
